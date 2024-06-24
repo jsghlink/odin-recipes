@@ -1,0 +1,50 @@
+* {
+    margin: 0%;
+    padding: 10px; 
+    box-sizing: border-box;
+    border: 2px solid red;
+}
+
+.container {
+    background-color: aqua;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.box2 img {
+    height: 500px;
+    width: 500px;
+    
+    
+}
+
+.box1 h2, .box2 p, .box3 h3, .box4 h3, .box5 h3{
+    text-align: center;
+}
+
+.box1, .box2, .box3, .box4, .box5, .box6{
+    height: 60%;
+    width: 60%;    
+} /* could also have gone with just .box */
+
+/*
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+ */
+ .box2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+ }
+
+ .box6 {
+    text-align: center;
+    
+ }
+
+

@@ -1,0 +1,274 @@
+* {
+    margin: 0px;
+    padding: 15px;
+    box-sizing: border-box;
+    /*border: 2px solid red;*/
+}
+
+.container {
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.section1-container {
+    
+    /*padding: 5px;*/
+    display: flex;
+    justify-content: center;
+    /* align-content: center; */
+    padding-bottom: 0px;
+}
+
+.section1 {
+    background-color: #1F2937;
+    color: rgb(222, 184, 135);
+    width: 100vw;
+    display: flex;
+    justify-content: space-between;
+}
+
+.section1a img {
+    height: 180px;
+    width: 350px;
+}
+
+.section1b {
+    display: flex;
+    justify-content: center;
+    font-size: 18px;
+}
+
+/*.rewards {
+    margin-left: 20px;
+}*/
+
+.section2-container {
+   
+    /*padding: 5px;*/
+    display: flex;
+    justify-content: center;
+    padding-top: 0px;
+}
+
+.section2 {
+    background-color: #1F2937;
+    color: burlywood;
+    width: 100vw;
+    display: flex;
+    justify-content: space-between;
+}
+
+.section2a {
+    width: 35%; /*35vw;*/
+}
+
+.section2b {
+    width: 45%; /*45vw;*/
+}
+
+.section2aheader {
+    font-size: 36px;
+    font-weight: 800;
+    /* color: burlywood;*/
+    word-wrap: break-word; /* check this property */
+    /* padding: 10px;*/
+    /* margin: 10px;*/
+}
+
+.section2asubtext {
+    /* color: burlywood;*/
+    font-size: 18px;
+    word-wrap: break-word; /* check this property */
+    /* padding: 10px;
+    margin: 10px; */
+}
+
+.button {
+    background-color: #4d1919;
+    color: burlywood;
+    border-radius: 20%;
+    padding: 20px;
+    /* padding: 10px;
+    margin: 10px; */
+}
+
+.ordernow:hover {
+    background-color: skyblue;
+    color: white;
+    box-shadow: 0 0 30px 0 skyblue,
+                0 0 30px 0 skyblue,
+                0 0 10px 0 skyblue inset;
+}
+
+.section2b img {
+    height: 100%;
+    width: 100%;
+}
+
+.section3-container {
+
+    display: flex;
+    justify-content: center;
+    background-color: white;
+}
+
+.section3 {
+    /* background-color: white; /* teal */
+    color: burlywood;
+    width: 100vw;
+    /*height: 400px; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.section3a h4 {
+    text-align: center;
+    font-size: 28px;
+    font-weight: bolder;
+    /*font-size: */
+}
+
+.section3b {
+    display: flex;
+    justify-content: space-around;
+}
+
+/*.item {
+    border: 1px solid blue;
+    border-radius: 20%;
+    height: 100px;
+    width: 100px;
+}*/
+
+.item1 img, .item2 img, .item3 img, .item4 img {
+    height: 200px;
+    width: 200px;
+    border-radius: 20%;
+    border: 3px solid blue;
+    padding: 0px;
+} 
+
+.item1 p, .item2 p, .item3 p, .item4 p {
+    text-align: center;
+    overflow-wrap: break-word;
+    /*word-wrap: break-word;*/
+}
+
+/*.item p {
+    text-align: center;
+}*/
+
+.section4-container {
+    display: flex;
+    justify-content: center;
+    background-color: #E5E7EB;
+    
+}
+
+.section4 {
+    /* background-color: #E5E7EB; */
+    width: 100vw;
+    /*display: flex;
+    justify-content: center;
+    align-content: center; */
+}
+
+.quote {
+    color: #1F2937;
+    font-style: italic;
+    font-size: 36px;
+    font-weight:100;
+    word-wrap: break-word;
+    text-align: left;
+}
+
+.saul {
+    text-align: right; /*use .by in span and check*/
+    font-style: italic;
+    font-weight: 18px;
+    font-weight: bolder;
+}
+
+.section5-container {
+   
+    display: flex;
+    justify-content: center;
+}
+
+.section5 {
+    /* background-color: teal; */
+    color: burlywood;
+    width: 100vw;
+    /* background-color: rgb(54, 54, 131); */
+    background-color: #003b99;
+    display: flex;
+    justify-content: space-between;
+    border-radius: 25px;
+}
+
+.text {
+    width: 60vw;
+}
+
+.heading {
+    font-size: 36px;
+    font-weight: bolder;
+    word-wrap: break-word;
+}
+
+.subtext {
+    font-size: 18px;
+    /* font-weight: bolder; */
+    /* color: burlywood; */
+    word-wrap: break-word;
+}
+
+.download:hover {
+    background-color: skyblue; /* check against ordernow */
+    color: white;
+    /* opacity: 0.5; */
+    box-shadow: 0 0 30px 0 skyblue,
+                0 0 30px 0 skyblue,
+                0 0 10px 0 skyblue inset;
+}
+
+.section6-container {
+    display: flex;
+    justify-content: center;
+    background-color: #1F2937;
+   
+}
+
+.section6 {
+    /* background-color: #1F2937; */
+    color: burlywood;
+    width: 100vw;
+}
+
+.section6 p {
+    text-align: center;
+}
+
+.section1-container, .section2-container, .section3-container, .section4-container, .section4-container, .section5-container, .section6-container {
+    width: 100%;
+}
+
+.menu, .grocery, .rewards, .section1a img {
+    margin: auto;
+}
+
+.container, body, html {
+    padding: 0px;
+}
+
+.section5 {
+    width: 80%;
+}
+
+/* let numbers = [2,3,4,5,6,7,8,9,10];
+
+numbers.filter(/* )*/

@@ -1,0 +1,50 @@
+* {
+    margin: 0;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+.wrapper{
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+
+
+.box2 img{
+    height: 500px;
+    width: 500px;
+}
+
+/* .container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 50%;
+    /* flex-direction: column;
+    justify-content: center;
+}
+
+.box.recipename p{
+    width: max-content;
+}
+
+.box.recipename h3 {
+    text-align: left;
+    border-color: green;
+
+}
+
+.recipeimage figure {
+    margin: 0%; 
+}
+*/
+
+
+
+

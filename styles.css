@@ -1,0 +1,68 @@
+* {
+margin: 0%;
+padding: 0%;
+box-sizing: border-box;
+}
+
+
+
+.recipename{
+    margin: auto;
+}
+
+.recipename h1{
+    text-align: center;
+}    
+
+.recipeimage{
+margin:auto;
+}
+
+.recipeimage img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    height: 500px;
+    width: 500px;
+}
+
+.recipedesc{
+    margin: auto;
+}
+
+.recipedesc *{
+    text-align: center;
+}
+
+.recipeingr{
+    margin: auto;
+}
+
+.recipeingr h3{
+    text-align: center;
+}
+
+.recipeingr ul{
+    background-color: lawngreen;
+}
+
+.recipeingr li{
+    display: block;
+    text-align: center;
+}
+
+.recipestep{
+    background-color: aqua;
+}
+
+.recipestep *{
+    text-align: center;
+}
+
+footer{
+    background-color: blue;
+}
+
+footer p{
+    text-align: center;
+}
